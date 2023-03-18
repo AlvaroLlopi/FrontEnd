@@ -1,0 +1,11 @@
+.row{
+    box-shadow: 2px -2px 5px #f0f0f0 ;
+}
+div{
+    background-color: #2360c2;
+}
+
+app-social{
+    float: right;
+    margin-top: 25px;
+}

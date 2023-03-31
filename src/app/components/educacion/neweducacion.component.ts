@@ -16,7 +16,7 @@ export class NeweducacionComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  
   onCreate(): void{
     const educacion = new Educacion(this.nombreE, this.descripcionE);
     this.educacionS.save(educacion).subscribe(

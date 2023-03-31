@@ -1,6 +1,6 @@
 .row{
     padding: 20px;
-    background-color: #0000FF;
+    background-color: #80a6ff;
     box-shadow: 2px -2px 5px #f0f0f0 ;
 }
 .contenedor{
@@ -11,6 +11,17 @@
     text-align: justify;
 }
 .img-proyecto{
-    box-shadow: 10px 10px 30px #0000FF;
+    box-shadow: 10px 10px 30px #80a6ff;
     box-shadow: ejeX ejeY difumasion color;
 }
+h2{
+   text-align: left; 
+}
+button{
+    text-align: right;
+}
+.space {
+    width: 10px;
+    height: auto;
+    display: inline-block;
+  }

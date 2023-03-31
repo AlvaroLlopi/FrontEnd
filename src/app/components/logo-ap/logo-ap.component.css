@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 2px -2px 5px #f0f0f0 ;
 }
 .redes{
     margin-right: 0.8em;

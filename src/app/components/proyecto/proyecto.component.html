@@ -11,16 +11,16 @@
         <table class="table">
             <tbody>
                 <tr *ngFor="let Proyecto of proy">
-                    <td *ngIf="isLogged">
+                    <td>
                         <h2>{{Proyecto.nombre}}
-                            <button class="btn btn-light" routerLink="/editproy/{{Proyecto.id}}">
+                            <button *ngIf="isLogged" class="btn btn-light" routerLink="/editproy/{{Proyecto.id}}">
                                 <i class="bi bi-pencil-fill"></i> EDITAR</button>
                             <div class="space">
                             </div>
-                            <button class="btn btn-danger" (click)="delete(Proyecto.id)">
+                            <button *ngIf="isLogged" class="btn btn-danger" (click)="delete(Proyecto.id)">
                                 <i class="bi bi-trash-fill"></i> BORRAR</button>
                         </h2>
-                        <img src={{Proyecto.imgp}} style="float: right;" class="img-fluid" id="imgp">
+                        <img src={{Proyecto.imgp}} style="float: right;" class="img-fluid" id="imgp" width="250px">
                         <a>{{Proyecto.descripcion}}</a>
                         <br>
                     </td>
